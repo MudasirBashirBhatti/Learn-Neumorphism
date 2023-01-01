@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e7e7e7;
+    width: 100%;
+    height: 100vh;
+}
+.all{
+    border-radius: 10px;
+    margin: 2em;
+    background-color: #e7e7e7;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+}
+.one{
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.103),-5px -5px 5px rgba(255, 255, 255, 0.438);
+}
+
+.two{
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.103) inset,-5px -5px 5px rgba(255, 255, 255, 0.438) inset;
+}
+.three{
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.103),-5px -5px 5px rgba(255, 255, 255, 0.438),
+    5px 5px 5px rgba(0, 0, 0, 0.103) inset,-5px -5px 5px rgba(255, 255, 255, 0.438)inset;
+}
+.four{
+    box-shadow:-5px -5px 5px #ffff,
+                5px 5px 5px #aeaec0,
+
+                -5px -5px 5px rgba(0, 0, 0, 0.199) inset,
+                5px 5px 5px rgba(255, 255, 255, 0.712) inset;
+}
+.five{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.192),
+                -5px -5px 5px white,
+                
+                5px 5px 5px rgba(0, 0, 0, 0.274) inset,
+                -5px -5px 5px white inset;
+}
+.six{
+    box-shadow:
+   -5px 5px 10px rgba(0, 0, 0, 0.527),
+    5px -5px 30px #fffef7,
+     5px -5px 5px rgba(0, 0, 0, 0.24) inset, 
+     -5px 5px 5px rgb(255, 255, 255) inset;
+}
